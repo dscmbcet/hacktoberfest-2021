@@ -4,7 +4,7 @@ A simple application developed with Flutter to read news which can be updated re
 
 ## How to run
 
-Run "flutter pub get" and "flutter pub run" to run the application
+Run "flutter pub get" and "flutter run" to run the application
 
 Make sure Flutter is installed properly. Use "flutter doctor" to check if there are any errors in the installation.
 
