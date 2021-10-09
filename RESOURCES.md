@@ -36,3 +36,4 @@
 
 - [Learn Git in 15mins](https://www.youtube.com/watch?v=USjZcfj8yxE)
 - [Full Playlist of Git for beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+- [Resolving Conflicts](https://www.youtube.com/watch?v=JtIX3HJKwfo)
