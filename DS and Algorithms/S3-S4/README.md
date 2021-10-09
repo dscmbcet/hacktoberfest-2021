@@ -20,7 +20,7 @@ This directory contains all the programs in syllabus for S3-S4
    - First Fit
    - Worst Fit
    - Best Fit
-9. Implement l page replacement algorithms
+9. Implement page replacement algorithms
    - FIFO
    - LRU
    - LFU
