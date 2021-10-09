@@ -1,7 +1,7 @@
 ---
 name: Document
 about: Issue template for documents
-title: "[DOCS]"
+title: Describe your issue briefly here
 labels: docs
 assignees: ''
 
