@@ -14,7 +14,11 @@ Make sure Flutter is installed properly. Use "flutter doctor" to check if there 
 
 ## Issues
 
-Coming Soon
+[#67](https://github.com/dscmbcet/hacktoberfest-2021/issues/67)
+
+[#68](https://github.com/dscmbcet/hacktoberfest-2021/issues/68)
+
+[#69](https://github.com/dscmbcet/hacktoberfest-2021/issues/69)
 
 ## Getting Started
 
