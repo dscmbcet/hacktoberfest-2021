@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: "[BUG][LOCATION_HERE] issue title"
-labels: bug, easy, good first issue
+labels: bug, easy, good first issue, hacktober-fest
 assignees: ''
 
 ---

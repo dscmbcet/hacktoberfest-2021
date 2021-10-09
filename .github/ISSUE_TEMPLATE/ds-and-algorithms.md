@@ -2,7 +2,7 @@
 name: DS and Algorithms
 about: Issue template for DS and Algorithms
 title: "[SUBJECT][S SEMESTER_NO] Program Name"
-labels: easy, good first issue
+labels: easy, good first issue, hacktober-fest
 assignees: ''
 
 ---
