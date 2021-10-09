@@ -4,7 +4,7 @@ This directory contains all the programs in syllabus for S3-S4
 
 ## Operating Systems Lab
 
-Language : `C`
+Language : `C` | `bash`
 
 1. Basic Linux commands
 2. Shell programming
