@@ -41,32 +41,6 @@ Language : `C` | `bash`
 
 ---
 
-## Issues
-
-[#16](https://github.com/dscmbcet/hacktoberfest-2021/issues/16)
-
-[#17](https://github.com/dscmbcet/hacktoberfest-2021/issues/17)
-
-[#18](https://github.com/dscmbcet/hacktoberfest-2021/issues/18)
-
-[#19](https://github.com/dscmbcet/hacktoberfest-2021/issues/19)
-
-[#20](https://github.com/dscmbcet/hacktoberfest-2021/issues/20)
-
-[#21](https://github.com/dscmbcet/hacktoberfest-2021/issues/21)
-
-[#22](https://github.com/dscmbcet/hacktoberfest-2021/issues/22)
-
-[#23](https://github.com/dscmbcet/hacktoberfest-2021/issues/23)
-
-[#24](https://github.com/dscmbcet/hacktoberfest-2021/issues/24)
-
-[#25](https://github.com/dscmbcet/hacktoberfest-2021/issues/25)
-
-[#26](https://github.com/dscmbcet/hacktoberfest-2021/issues/26)
-
----
-
 ## Reference
 
 [2019 KTU CSE SYLLABUS](https://ktu.edu.in/data/COMPUTER%20SCIENCE%20AND%20ENGINEERING.pdf?=UWtbNsYZpVMR8qVORZJr9gO2nGHp0EcJuR%2B%2Frm5kkB9W3xFJ67pIbPapzwq8PRhHAM3SWMRdYZw%2FyuYJFgK3tw%3D%3D)
