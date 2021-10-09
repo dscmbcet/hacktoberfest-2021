@@ -6,35 +6,35 @@ This directory contains all the programs in syllabus for S4
 
 Language : `C` | `bash`
 
-1. Basic Linux commands
-2. Shell programming
+1. Basic Linux commands [#15](https://github.com/dscmbcet/hacktoberfest-2021/issues/15)
+2. Shell programming [#16](https://github.com/dscmbcet/hacktoberfest-2021/issues/16)
    - Command syntax
    - Write simple functions with basic tests, loops, patterns
-3. System calls of Linux operating system:
+3. System calls of Linux operating system: [#17](https://github.com/dscmbcet/hacktoberfest-2021/issues/17)
    - fork, exec, getpid, exit, wait, close, stat, opendir, readdir
-4. Write programs using the I/O system calls of Linux operating system (open, read, write)
-5. Implement programs for Inter Process Communication using Shared Memory
-6. Implement Semaphores
-7. Implementation of CPU scheduling algorithms.
+4. Write programs using the I/O system calls of Linux operating system (open, read, write) [#18](https://github.com/dscmbcet/hacktoberfest-2021/issues/18)
+5. Implement programs for Inter Process Communication using Shared Memory [#19](https://github.com/dscmbcet/hacktoberfest-2021/issues/19)
+6. Implement Semaphores [#20](https://github.com/dscmbcet/hacktoberfest-2021/issues/20)
+7. Implementation of CPU scheduling algorithms. [#21](https://github.com/dscmbcet/hacktoberfest-2021/issues/21)
    - Round Robin
    - SJF
    - FCFS
    - Priority
-8. Implementation of the Memory Allocation Methods for fixed partition
+8. Implementation of the Memory Allocation Methods for fixed partition [#22](https://github.com/dscmbcet/hacktoberfest-2021/issues/22)
    - First Fit
    - Worst Fit
    - Best Fit
-9. Implement page replacement algorithms
+9. Implement page replacement algorithms [#23](https://github.com/dscmbcet/hacktoberfest-2021/issues/23)
    - FIFO
    - LRU
    - LFU
-10. Implement the banker’s algorithm for deadlock avoidance.
-11. Implementation of Deadlock detection algorithm
-12. Simulate file allocation strategies.
+10. Implement the banker’s algorithm for deadlock avoidance. [#24](https://github.com/dscmbcet/hacktoberfest-2021/issues/24)
+11. Implementation of Deadlock detection algorithm [#25](https://github.com/dscmbcet/hacktoberfest-2021/issues/25)
+12. Simulate file allocation strategies. [#26](https://github.com/dscmbcet/hacktoberfest-2021/issues/26)
     - Sequential
     - Indexed
     - Linked
-13. Simulate disk scheduling algorithms.
+13. Simulate disk scheduling algorithms. [#27](https://github.com/dscmbcet/hacktoberfest-2021/issues/27)
     - FCFS
     - SCAN
     - C-SCAN
@@ -42,9 +42,6 @@ Language : `C` | `bash`
 ---
 
 ## Issues
-
-
-[#15](https://github.com/dscmbcet/hacktoberfest-2021/issues/15)
 
 [#16](https://github.com/dscmbcet/hacktoberfest-2021/issues/16)
 
@@ -69,6 +66,7 @@ Language : `C` | `bash`
 [#26](https://github.com/dscmbcet/hacktoberfest-2021/issues/26)
 
 ---
+
 ## Reference
 
 [2019 KTU CSE SYLLABUS](https://ktu.edu.in/data/COMPUTER%20SCIENCE%20AND%20ENGINEERING.pdf?=UWtbNsYZpVMR8qVORZJr9gO2nGHp0EcJuR%2B%2Frm5kkB9W3xFJ67pIbPapzwq8PRhHAM3SWMRdYZw%2FyuYJFgK3tw%3D%3D)
