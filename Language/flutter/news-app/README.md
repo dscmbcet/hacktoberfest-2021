@@ -1,4 +1,4 @@
-# news-app
+# News App
 
 A simple application developed with Flutter to read news which can be updated realtime from an open API.
 
@@ -10,7 +10,11 @@ Make sure Flutter is installed properly. Use "flutter doctor" to check if there 
 
 ## Screenshots
 
-![Screenshot_20211009-205553](https://user-images.githubusercontent.com/16449652/136665405-2e74c237-7edc-4dfa-b3f3-07e5a020c2d2.jpg)
+<img src="https://user-images.githubusercontent.com/16449652/136665405-2e74c237-7edc-4dfa-b3f3-07e5a020c2d2.jpg" width="250">
+
+## Issues
+
+Coming Soon
 
 ## Getting Started
 
