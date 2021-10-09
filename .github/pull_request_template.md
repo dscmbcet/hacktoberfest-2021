@@ -1,8 +1,8 @@
 **Describe this PR fixes which issue**
 
-Closes [issue link]
+Closes issue [issue link]
 
-Eg: Closes #20
+Eg: Closes issue [#20](https://github.com/dscmbcet/hacktoberfest-2021/issues/20)
 
 **Describe the changes you made briefly**
 
