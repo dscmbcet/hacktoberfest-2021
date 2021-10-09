@@ -43,6 +43,7 @@ Commit the changes once you are happy with them.
 When you're finished with the changes, create a pull request, also known as a PR.
 
 - Fill the PR template so that we can review your PR. This template helps reviewers understand your changes as well as the purpose of your pull request.
+- Ensure **Allow edits by maintainers** is ticked
 - Once you submit your PR, a team member will review your proposal. We may ask questions or request for additional information.
 - If any changes are required make it accordingly to the same PR
 - If you run into any merge issues, checkout this [Resolving Conflicts](https://www.youtube.com/watch?v=JtIX3HJKwfo) to help you resolve merge conflicts and other issues.
