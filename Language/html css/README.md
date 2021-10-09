@@ -5,7 +5,7 @@ This directory contains all the programs specific to HTML and CSS
 
 ## How to run?
 
-Use [liveserver] (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension on VSCode IDE.
+Use [liveserver](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension on VSCode IDE.
 
 ## Issues 
 
