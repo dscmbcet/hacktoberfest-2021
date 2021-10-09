@@ -1,10 +1,13 @@
 # Hacktoberfest 2021
+
 ![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
 
 Open source codebase in association with hacktoberfest 2021
 
 ## About
+
 ### What is Hacktoberfest?
+
 Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by **DigitalOcean**. During the month of `October`, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
 - Prepare and share your project for collaboration
@@ -14,7 +17,9 @@ Hacktoberfest, in its 8th year, is a month-long celebration of open source softw
 - Donate directly to open source projects
 
 ---
+
 ### Rules
+
 Pull requests can be made in any participating GitHub or GitLab hosted repository/projects. Look for the 'hacktoberfest' topic to know if a project is participating in Hacktoberfest.
 You can sign up anytime between **October 1** and **October 31**. Just be sure to sign up on the official Hacktoberfest website for your pull requests to count.
 
@@ -26,11 +31,19 @@ You can sign up anytime between **October 1** and **October 31**. Just be sure t
 - A pull request is considered approved once it has an overall approving review from maintainers, or has been merged by maintainers, or has been given the 'hacktoberfest-accepted' label.
 
 ---
-### Resources
-- [Guide To Markdown](https://www.markdownguide.org/basic-syntax/)
-- [Git Version Control Tool Documentation](https://git-scm.com/docs)
 
-### Tools
-- [Git](https://git-scm.com/)
-- [GitHub Desktop Application](https://desktop.github.com/)
-- [VS Code](https://code.visualstudio.com/)
+## Useful Resources and tools
+
+[Resources And Tools](./RESOURCES.md)
+
+---
+
+## Projects in which you can contribute
+
+In addtion to this repository you can also contribute to other world wide open source repositories such as
+
+[Hacktober Fest Participating Repos](https://github.com/search?q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
+
+---
+
+## How to contribute in this repository
