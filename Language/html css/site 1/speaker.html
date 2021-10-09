@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Page</title>
+    <link rel="stylesheet" href="speaker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="speaker.js"></script>
+</head>
+
+<body onload="createSpeakers();">
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', init, false);
+    </script> -->
+
+    <div class="cover">
+        <img src="Grain.png" alt="">
+    </div>
+    <div class="main">
+        <div class="headertext">
+            <h1>This should be an infinite carousel</h1>
+        </div>
+        <div class="buttoncontainer">
+            <div class="carwrapcontainer">
+                <div class="fadecont">
+                    <div class="carouselwrapper">
+                        <div class="carouselcontainer">
+                        </div>
+
+                    </div>
+                    <div class="carouselfade" id="carouselfade"></div>
+                </div>
+
+            </div>
+            <button style="color: black;" onclick="changePos()">NEXT</button>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
