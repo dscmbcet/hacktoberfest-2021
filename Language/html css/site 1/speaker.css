@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+}
+
+.cover
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.cover img
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main
+{
+    background-color: #333333;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carwrapcontainer
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: powderblue; */
+}
+
+.headertext
+{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.carouselitem img
+{
+    object-fit: fill;
+    width: 100%;
+    
+}
+
+.carouselitem
+{
+    min-width: 250px;
+    width: 30vw;
+    /* padding: 0px;
+    width: 50vw;
+    max-width: 300px;
+    object-fit: scale-down;
+    min-width: 100px;
+    
+    margin: 20px;
+    flex: 1; */
+    /* background-color: pink; */
+    filter: drop-shadow(0px 2.20069px 55.0173px rgba(0, 0, 0, 0.25));
+    margin: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition-duration: 1s;
+    scroll-snap-align: start;
+    
+}
+
+/* .carouselitem:hover
+{
+    transform: scale(110%);
+    transition-duration: 1s;
+    margin-left: 55px;
+    margin-right: 55px;
+} */
+
+
+.itemCenter
+{
+    /* transform: rotate(0deg);
+    transition-duration: 1s;
+    transform: scale(100%); */
+    transform: scale(160%);
+    transition-duration: 1s;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.hide
+{
+    display: none;
+}
+
+.show
+{
+    display: block;
+}
+
+.itemLeft
+{
+    transform: rotate(-15deg) scale(80%);
+    margin-top: 150px;
+    transition-duration: 1s;
+    
+}
+
+.itemRight
+{
+    transform: rotate(15deg) scale(80%);
+    margin-top: 150px;
+    transition-duration: 1s;
+}
+
+.carouselwrapper
+{
+    /* padding-top: 70px; */
+    /* margin: 10px; */
+    position: relative;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-type: y mandatory;
+    z-index: 2;
+    overflow-y: hidden;
+    /* background-color: red; */
+    
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.carouselwrapper::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.buttoncontainer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    color: black;
+}
+
+.fadecont
+{
+    position: relative;
+    display: inline;
+    margin: 100px;
+    /* background-color: rebeccapurple; */
+    width: 90vw;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    overflow-x: hidden;
+    z-index: 2;
+    overflow-y: hidden;  /* Internet Explorer 10+ */
+}
+
+.carouselfade
+{
+    position: absolute;
+    pointer-events: none;
+    width: calc(90vw);   
+    height: 100%; 
+    z-index: 5;
+    -webkit-box-shadow: inset 3px 0px 26px 50px #333333, inset -3px 0px 26px 50px #333333; 
+    box-shadow: inset 3px px 26px 50px #333333, inset -3px px 26px 50px #333333;
+}
+
+.carouselcontainer
+{
+    
+    display: flex;
+    flex-shrink: 0;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    z-index: 1;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* margin: 100px; */
+    /* overflow: auto;
+    scroll-behavior: smooth; */
+    /* scroll-snap-align: center; */
+    /* padding: 40px;
+    width: 50vw; */
+    /* background-color: yellow; */
+    /* margin: 100px; */
+    /* width: 100vw; */
+    
+}
