@@ -18,10 +18,8 @@ Language : `C`
 6. Read a Natural Number and check whether the number is Armstrong or not
 7. Display second largest number after reading n numbers from user. (Without array).
 8. Read n integers, store them in an array and find their sum and average
-9. Read n integers, store them in an array and search for an element in
-   the array using an algorithm for Linear Search
-10. Read n integers, store them in an array and sort the elements in the array using
-    Bubble Sort algorithm
+9. Read n integers, store them in an array and search for an element in the array using an algorithm for Linear Search
+10. Read n integers, store them in an array and sort the elements in the array using Bubble Sort algorithm
 11. Write a menu driven program for performing matrix addition, multiplication and
     finding the transpose. Use functions to
     - read a matrix
@@ -30,16 +28,12 @@ Language : `C`
     - find the transpose of a matrix and
     - display a matrix.
 12. Display sum of diagonal elements of a matrix
-13. Read a string (word), store it in an array and check whether it is a palindrome word
-    or not.
-14. Read a string (ending with a $ symbol), store it in an array and count the number
-    of vowels, consonants and spaces in it.
+13. Read a string (word), store it in an array and check whether it is a palindrome word or not.
+14. Read a string (ending with a $ symbol), store it in an array and count the number of vowels, consonants and spaces in it.
 15. Display first n prime numbers using Function.
 16. Program to find the sum of digits of a number using recursion
-17. Using structure, read and print data of n employees (Name, Employee Id and
-    Salary)
-18. Read the marks of three subjects for n students of a class and display their names
-    in the order of rank. (Use array of structure)
+17. Using structure, read and print data of n employees (Name, Employee Id and Salary)
+18. Read the marks of three subjects for n students of a class and display their names in the order of rank. (Use array of structure)
 19. Input and Print the sum of elements of an array using pointers
 20. Create a file and perform the following
     - Write data to the file
@@ -53,26 +47,46 @@ Language : `C`
 
 ## Issues
 
-[#15](https://github.com/dscmbcet/hacktoberfest-2021/issues/15)
+[#39](https://github.com/dscmbcet/hacktoberfest-2021/issues/39)
 
-[#16](https://github.com/dscmbcet/hacktoberfest-2021/issues/16)
+[#40](https://github.com/dscmbcet/hacktoberfest-2021/issues/40)
 
-[#17](https://github.com/dscmbcet/hacktoberfest-2021/issues/17)
+[#41](https://github.com/dscmbcet/hacktoberfest-2021/issues/41)
 
-[#18](https://github.com/dscmbcet/hacktoberfest-2021/issues/18)
+[#42](https://github.com/dscmbcet/hacktoberfest-2021/issues/42)
 
-[#19](https://github.com/dscmbcet/hacktoberfest-2021/issues/19)
+[#43](https://github.com/dscmbcet/hacktoberfest-2021/issues/43)
 
-[#20](https://github.com/dscmbcet/hacktoberfest-2021/issues/20)
+[#44](https://github.com/dscmbcet/hacktoberfest-2021/issues/44)
 
-[#21](https://github.com/dscmbcet/hacktoberfest-2021/issues/21)
+[#45](https://github.com/dscmbcet/hacktoberfest-2021/issues/45)
 
-[#22](https://github.com/dscmbcet/hacktoberfest-2021/issues/22)
+[#46](https://github.com/dscmbcet/hacktoberfest-2021/issues/46)
 
-[#23](https://github.com/dscmbcet/hacktoberfest-2021/issues/23)
+[#47](https://github.com/dscmbcet/hacktoberfest-2021/issues/47)
 
-[#24](https://github.com/dscmbcet/hacktoberfest-2021/issues/24)
+[#48](https://github.com/dscmbcet/hacktoberfest-2021/issues/48)
 
-[#25](https://github.com/dscmbcet/hacktoberfest-2021/issues/25)
+[#49](https://github.com/dscmbcet/hacktoberfest-2021/issues/49)
 
-[#26](https://github.com/dscmbcet/hacktoberfest-2021/issues/26)
+[#50](https://github.com/dscmbcet/hacktoberfest-2021/issues/50)
+
+[#51](https://github.com/dscmbcet/hacktoberfest-2021/issues/51)
+
+[#52](https://github.com/dscmbcet/hacktoberfest-2021/issues/52)
+
+[#53](https://github.com/dscmbcet/hacktoberfest-2021/issues/53)
+
+[#54](https://github.com/dscmbcet/hacktoberfest-2021/issues/54)
+
+[#55](https://github.com/dscmbcet/hacktoberfest-2021/issues/55)
+
+[#56](https://github.com/dscmbcet/hacktoberfest-2021/issues/56)
+
+[#57](https://github.com/dscmbcet/hacktoberfest-2021/issues/57)
+
+[#58](https://github.com/dscmbcet/hacktoberfest-2021/issues/58)
+
+[#59](https://github.com/dscmbcet/hacktoberfest-2021/issues/59)
+
+[#60](https://github.com/dscmbcet/hacktoberfest-2021/issues/60)
