@@ -11,3 +11,5 @@ Use `javac` compiler
 [#70](https://github.com/dscmbcet/hacktoberfest-2021/issues/70)
 
 [#71](https://github.com/dscmbcet/hacktoberfest-2021/issues/71)
+
+[#85](https://github.com/dscmbcet/hacktoberfest-2021/issues/85)
