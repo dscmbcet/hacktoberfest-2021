@@ -42,7 +42,7 @@ You can sign up anytime between **October 1** and **October 31**. Just be sure t
 
 In addtion to this repository you can also contribute to other world wide open source repositories such as
 
-- [Hacktober Fest Participating Repos](https://github.com/search?q=label%3Ahacktoberfest+label%3Ahacktoberfest2021+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
+- [Hacktober Fest Participating Repos](https://github.com/search?q=label%3Ahacktoberfest+state%3Aopen+no%3Aassignee+is%3Aissue&type=Issues)
 - [Good First Issue Finder](https://goodfirstissue.dev/)
 ---
 
