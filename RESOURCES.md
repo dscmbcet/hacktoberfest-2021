@@ -31,6 +31,7 @@
 
 - [Creating Pull Request](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
 - [Video Tutorial](https://www.youtube.com/watch?v=HbSjyU2vf6Y&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=12)
+- [Contribution Guide](https://github.com/dscmbcet/hacktoberfest-2021/blob/main/CONTRIBUTING.md)
 
 ## How to rebase and update Pull Request
 
