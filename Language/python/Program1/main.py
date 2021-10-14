@@ -1,22 +1,23 @@
 # Python program to print prime numbers in an interval
 
-def PrintPrimes(lower, upper):
-    i = lower
-    while(i < upper+1):
-        if(i > 1):
-            j = 2
-            while(j < i):
-                if(i % j == 0):
+
+def print_primes(lower_limit: int, upper_limit: int) -> None:
+    while lower_limit < upper_limit + 1:
+        if lower_limit > 1:
+            interval = 2
+            while interval < lower_limit:
+                if lower_limit % interval == 0:
                     break
-                j += 1
+                interval += 1
             else:
-                print(i)
-            
-        i += 1
+                print(lower_limit)
+
+        lower_limit += 1
+
 
 # Taking inputs
 
-lower = input("Lower Limit: ")
-upper = input("Upper Limit: ")
+lower = int(input("Lower Limit: "))
+upper = int(input("Upper Limit: "))
 
-PrintPrimes(lower, upper)
+print_primes(lower, upper)
