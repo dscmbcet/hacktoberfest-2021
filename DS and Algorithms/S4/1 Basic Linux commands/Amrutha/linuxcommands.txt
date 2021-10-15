@@ -1,0 +1,72 @@
+Linux Commands
+
+Sl. No.	Linux Commands	                Description
+1.	    pwd	                displays the path of the current working directory
+2.	    man	                displays the whole user manual of the command
+3.	    clear	            to clear the screen
+4.	    whatis	            displays a one-line manual page description
+5.	    info	            displays more detailed information about a command
+6.	    help	            displays the information about the built in commands
+7.	    ls	                list of all files in the current directory
+8.	    mkdir	            to create a new directory
+9.	    cd	                to change directory
+10.	    touch	            to create file
+11.	    cd ..	            to move to the parent directory
+12.	    ls  -l	            long listing all the files created in a particular directory
+13.	    ls  -a	            to see hidden files
+14.	    ls  -r	            to reverse the file order 
+15.	    ls  -R	            list recursively
+16.	    echo   >>	        to add text to the end of the file
+17.	    echo   >	        to write text to the file
+18.	    cat   >>	        to write multiple line text to the file
+19.	    cat  >	            to overwrite multiple line text to the file
+20.	    cat	                to write the file content to console
+21.	    rmdir	            to delete empty directory
+22.	    rmdir  -r	        to delete directory with sub files
+23.	    rm	                to delete a specific file
+24.	    cp	                to copy file contents from source file to destination file
+25.	    mv	                to move files or directories from one place to another
+
+
+Linux commands for various operations
+
+Sl no.	 Commands	                               Operations performed
+1	  Redirection operator              redirection is used to change the standard input/output devices while executing a command
+1.1.  Output redirection operator(>)	output of a command is redirected to file instead of screen(the existing contents of file is deleted and overwritten)
+	  Output redirection operator(>>)	output of a command is redirected to file instead of screen(new contents will be added to the end of existing file)
+1.2.  Input redirection operator(<<)	input of a command can be redirected to a file
+2.	  Pipe (|)	                        output of a command is modified and used as input of next command
+3.	  Filter	                        modifying input of one command and gives output
+3.1.  Wordcount(wc)	                    number of words, characters, lines and filename is counted and displayed
+	        wc  -l	                    to count and display number of lines in the file
+	        wc  -c	                    to count and display number of characters in the file
+	        wc  -w	                    to count and display number of words in the file
+3.2.  head	                            to display the first 10 lines(by default) of a file in the console
+	        head -n	                    to display the first n lines of a file in the console
+3.3.  tail	                            to display the last10 lines(by default) of a file in the console
+	        tail -n	                    to display the last n lines of a file in the console
+3.4.  sort	                            to sort the contents of a file alphabetically
+	        sort -r	                    to sort the contents of a file in reverse order
+	        sort -n	                    to sort the numerical contents of a file
+	        sort -nr	                to sort the numerical contents of a file in reverse order
+	        sort -f	                    to conduct case sensitive sorting
+3.5.  uniq	                            to remove duplicates from sorted list
+3.6.  grep	                            to globally search for regular expression and print or to find particular pattern from the file content
+	        grep –E(extended grep)	    to search more than one pattern from the file
+	        grep  –e	                to display the count of repeating patterns
+	        grep  –n	                to display the matching lines and the line number
+	        grep  –i	                to display the matching lines for case sensitive cases
+3.7.  tr (translate)	                to translate all occurrences of one character by another
+4.	  File permission and Ownership	    Different file permissions are read(r), write(w) and execute(x). These permissions are given to a user, or group of users, or others.
+	       chmod  u+w	                giving users the permission to write
+	       chmod  u+rwx	                giving users the permissions to read, write and execute
+	       chmod  ug+rw	                giving users and group of users the permission to read and write
+	       chmod  u-w	                removing the permission to write from the user
+	       chmod  ug-r	                removing the permission to read from user and group of users
+	       chmod  7  7  7
+            (ie,111 111 111
+            for  u   g   o   )          giving users, group of users and others the permission to read, write and execute
+	      chmod  4    5   1
+            (ie,100  101  001
+            for  u    g    o   )        giving users the permission to read, group of users to read & execute and others to execute 
+
