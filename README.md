@@ -49,3 +49,6 @@ In addtion to this repository you can also contribute to other world wide open s
 ## How to contribute in this repository
 
 [Contributing Guide](./CONTRIBUTING.md)
+
+## Thank you collaborators
+![Contributors](https://contrib.rocks/image?repo=dscmbcet/hacktoberfest-2021)
