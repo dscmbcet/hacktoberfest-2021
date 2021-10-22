@@ -18,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   }
 
   //populate news items
-  void getNewsData() async {
+  Future getNewsData() async {
     setState(() {
       showSpinner = true;
     });
@@ -49,18 +49,18 @@ class _MainScreenState extends State<MainScreen> {
     }
     return Scaffold(
       appBar: AppBar(
-        actions: [
-          //refresh button used to make a fresh API call and get updated data
-          IconButton(
-            onPressed: () {
-              getNewsData();
-            },
-            icon: Icon(
-              Icons.refresh,
-              color: Colors.white,
-            ),
-          )
-        ],
+        // actions: [
+        //   //refresh button used to make a fresh API call and get updated data
+        //   IconButton(
+        //     onPressed: () {
+        //       getNewsData();
+        //     },
+        //     icon: Icon(
+        //       Icons.refresh,
+        //       color: Colors.white,
+        //     ),
+        //   )
+        // ],
         title: Text(
           'News',
           style: TextStyle(
@@ -70,24 +70,27 @@ class _MainScreenState extends State<MainScreen> {
       ),
       body: Padding(
         padding: EdgeInsets.all(12.0),
-        child: ListView.builder(
-          physics: BouncingScrollPhysics(),
-          itemCount: newsItems.length + 1,
-          itemBuilder: (context, index) {
-            if (index == newsItems.length) {
-              return Container(
-                width: MediaQuery.of(context).size.width,
-                height: 50,
-                child: Center(
-                  child: Text(
-                    'All Caught Up',
-                    style: TextStyle(fontFamily: 'roboto', fontSize: 20),
+        child: RefreshIndicator(
+          onRefresh: () => getNewsData(),
+          child: ListView.builder(
+            physics: BouncingScrollPhysics(),
+            itemCount: newsItems.length + 1,
+            itemBuilder: (context, index) {
+              if (index == newsItems.length) {
+                return Container(
+                  width: MediaQuery.of(context).size.width,
+                  height: 50,
+                  child: Center(
+                    child: Text(
+                      'All Caught Up',
+                      style: TextStyle(fontFamily: 'roboto', fontSize: 20),
+                    ),
                   ),
-                ),
-              );
-            }
-            return NewsItemWidget(newsItems[index]);
-          },
+                );
+              }
+              return NewsItemWidget(newsItems[index]);
+            },
+          ),
         ),
       ),
     );
