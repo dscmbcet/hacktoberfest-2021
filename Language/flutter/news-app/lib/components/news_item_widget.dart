@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_flutter/utilities/news_item.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:intl/intl.dart';
 
 class NewsItemWidget extends StatelessWidget {
   final NewsItem newsItem;
@@ -56,8 +57,7 @@ class NewsItemWidget extends StatelessWidget {
             Padding(
                 padding: EdgeInsets.all(10),
                 child: Image.network(newsItem.imageUrl ?? '')),
-            FlatButton(
-              padding: EdgeInsets.all(0),
+            TextButton(
               onPressed: () {
                 _launchURL(newsItem.url ?? '');
               },
@@ -72,7 +72,7 @@ class NewsItemWidget extends StatelessWidget {
               height: 10,
             ),
             Text(
-              newsItem.time ?? '',
+              toDateFormat(newsItem.time) ?? '',
               textAlign: TextAlign.right,
               style: TextStyle(
                   fontFamily: 'roboto', fontSize: 18, color: Colors.white70),
@@ -83,3 +83,46 @@ class NewsItemWidget extends StatelessWidget {
     );
   }
 }
+
+String toDateFormat(String time) {
+  DateTime postedOn = DateTime.parse(time);
+  String output =
+      "${DateFormat('hh:mm a').format(postedOn)}, ${postedOn.day}${getDayOfMonthSuffix(postedOn.day)} ${months[postedOn.month-1]}";
+  return output;
+}
+
+String getDayOfMonthSuffix(int dayNum) {
+  if (!(dayNum >= 1 && dayNum <= 31)) {
+    throw Exception('Invalid day of month');
+  }
+
+  if (dayNum >= 11 && dayNum <= 13) {
+    return 'th';
+  }
+
+  switch (dayNum % 10) {
+    case 1:
+      return 'st';
+    case 2:
+      return 'nd';
+    case 3:
+      return 'rd';
+    default:
+      return 'th';
+  }
+}
+
+List<String> months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
