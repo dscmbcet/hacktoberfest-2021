@@ -1,32 +1,40 @@
+#include <stdio.h>
 
-#include<stdio.h>
+float sum(float *ptr, int n); //Function to calculate sum
+float avg(float sum, int n);  // Function to calculate the Average
 
-void main()
+int main()
 {
- float a[50], sum=0, avg;
- int i, n;
- 
- printf("Enter n: ");
- scanf("%d", &n);
- 
+    int n, i = 0;
+    printf("Enter the no. of elements : ");
+    scanf("%d", &n);
+    float arr[n];
+    while (i < n)
+    {
+        printf("Enter the %d element : ", i + 1);
+        scanf("%f", &arr[i]);
+        i++;
+    }
+    float Sum = sum(arr, n); //Calling sum function
+    float Avg = avg(Sum, n); // Calling Average function
+    printf("The sum is %.2f\n", Sum);
+    printf("THe average is %.2f\n", Avg);
+    return 0;
+}
 
- printf("Enter numbers:\n");
- for(i=0; i< n; i++)
- {
-  printf("a[%d] = ", i);
-  scanf("%f", &a[i]);
- }
- 
+float sum(float *ptr, int n)
+{
+    float sum = 0;
+    int i = 0;
+    while (i < n)
+    {
+        sum += *(ptr + i);
+        i++;
+    }
 
- for(i=0; i< n; i++)
- {
-  sum = sum + a[i];
- }
- 
- 
- avg = sum/n;
- 
- printf("Sum is %f\n", sum);
- printf("Average is %f", avg);
- 
+    return sum;
+}
+float avg(float sum, int n)
+{
+    return (sum / n);
 }
