@@ -5,7 +5,7 @@ class Queue {
     char ch;
     Scanner sc;
 
-    public Queue() {
+     Queue() {
         this.temp = 0;
         this.temp1 = 0;
         this.front = -1;
