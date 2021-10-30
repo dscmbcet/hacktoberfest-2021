@@ -7,7 +7,7 @@ struct data
 {
     char firstName[15];
     char lastName[15];
-    int rollno;
+    int rollno ;
     float cgpa;
     int course[2];
 }in[49];
@@ -88,7 +88,7 @@ void findStudentc()
         }
     }
 }
-void totalStudents()
+ totalStudents()
 {
     printf("total number of students in the database is %d",count+1);
 }
