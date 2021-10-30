@@ -26,7 +26,7 @@ void addStdudent()
         scanf("%d",&in[count].course[i]);
     count ++;
 }
-void findStudent()
+void findStudents()
 {
    int yes=0;
    int roll;
@@ -67,7 +67,7 @@ void findStudents()
     }
 
 }
-void findStudentc()
+void findStudents()
 {
     int yes=0;
     int cid;
@@ -116,7 +116,7 @@ void deleteStudent()
          printf("\nStudent not found\n");
    }
 }
-void updateStudent()
+void updateStudents()
 {
    int yes=0;
    int roll;
