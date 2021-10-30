@@ -35,5 +35,5 @@ void main()
         }
     }
  
-    printf("The sum of diagonal elements of a square matrix = %d\n",sum);
+    printf("The sum of diagonal elements of the matrix is = %d\n",sum);
 }
