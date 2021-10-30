@@ -5,7 +5,7 @@ void main()
     int mat[12][12];
     int i,j,row,col,sum=0;
  //hARSH
-    printf("Enter the number of rows and columns for 1st matrix\n");
+    printf("Enter the total number of rows and columns for 1st matrix\n");
     scanf("%d%d",&row,&col);
     printf("Enter the elements of the matrix\n");
     for(i=0;i<row;i++)
