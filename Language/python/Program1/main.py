@@ -2,18 +2,17 @@
 
 
 def print_primes(lower_limit: int, upper_limit: int) -> None:
-    while lower_limit < upper_limit + 1:
+    # iterating the lower interval till it reaches the upper interval
+    for i in range(lower_limit, upper_limit + 1):
         if lower_limit > 1:
             interval = 2
-            while interval < lower_limit:
-                if lower_limit % interval == 0:
+            # now as 2 is always prime, we check further
+            for j in range(interval, i+1):
+                # if they divide, it is not a prime
+                if i % j == 0:
                     break
-                interval += 1
             else:
-                print(lower_limit)
-
-        lower_limit += 1
-
+                print(i)
 
 # Taking inputs
 
