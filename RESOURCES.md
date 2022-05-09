@@ -1,7 +1,7 @@
 # Tutorials And Resources
 
 ## GitExplore Guide
-- [Tutorial On Installing VSCode, Git and GitHub](https://rebrand.ly/git-explor-resources)
+- [Tutorial On Installing VSCode, Git and GitHub](https://www.notion.so/gdscmbcet/Let-s-GitExplor-Resources-e7cb729df66947da8ef3ecfa5d44db74)
 
 ## Tools
 
