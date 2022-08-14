@@ -18,15 +18,7 @@ public class SearchSubstring {
 
 	static int findStartIndexOfSubString(String s1, String s2) {
     
-		int len_s1 = s1.length();
-		int len_s2 = s2.length();
-
-		for (int i = 0; i <= len_s1 - len_s2; i++) {
-			if (s1.substring(i, i + len_s2 - 1) == (s2)) {
-				return i;
-			}
-		}
-		return -1;
+		return s1.indexOf(s2);
     
 	}
 }
